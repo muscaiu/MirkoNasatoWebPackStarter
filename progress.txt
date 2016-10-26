@@ -29,3 +29,7 @@
 13. add "build:prod": "webpack -p --progress" for production
     - npm run build:prod (will do minimization and uglify.js)
     - app is now 700kb compared to 2MB
+14. add dev server for dev autoreload on changes
+    - npm i --save-dev webpack-dev-server@1.16.1
+    - add to package.json: "serve": "webpack-dev-server --inline --progress"
+    - npm run serve , go http://localhost:8080/

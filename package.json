@@ -4,7 +4,8 @@
   "scripts": {
     "build": "webpack --progress",
     "build:prod": "webpack -p --progress",
-    "postinstall": "typings install"
+    "postinstall": "typings install",
+    "serve": "webpack-dev-server --inline --progress"
   },
   "dependencies": {
     "@angular/common": "2.0.1",
@@ -25,6 +26,7 @@
     "ts-loader": "^0.8.2",
     "typescript": "^2.0.3",
     "typings": "^1.4.0",
-    "webpack": "^1.13.2"
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
   }
 }
