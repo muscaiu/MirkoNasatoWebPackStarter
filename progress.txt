@@ -14,3 +14,12 @@
 5. configure webpack
     - create webpack.config.js(see code in repo)
 6. run .../bin/webpack --progress to check if progress works
+7. add     <script src="../dist/app.bundle.js"></script> to index.html 
+   to test if the page works(still doesn't work shim required)
+8. add to main.ts
+    - import 'core-js'
+    - import 'reflect-metadata'
+    - import 'zone.js/dist/zone'
+9. delete dist folder and run webpack --progress again
+10. move <script src="../dist/app.bundle.js"></script> at the end of the file
+11. create app.module.ts &  change main.ts (code in the repo)
