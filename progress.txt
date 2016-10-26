@@ -1,0 +1,4 @@
+1. to complie the ts code do:
+    - npm bin (to display the path to bin)
+    - copy/paste the paste the path+/tsc: D:\Angular2\MirkoNasatoWebPackStarter\node_modules\.bin/tsc -v for check
+    - run .....bin/tsc --rootDir src --outDir dist (will generate some errors but create the code anyway)
