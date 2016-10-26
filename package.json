@@ -1,6 +1,9 @@
 {
   "name": "angular2-wpstarter",
   "version": "0.1.0",
+  "scripts": {
+    "build": "tsc --rootDir src --outDir dist"
+  },
   "dependencies": {
     "@angular/common": "2.0.1",
     "@angular/compiler": "2.0.1",
@@ -16,6 +19,7 @@
     "zone.js": "0.6.25"
   },
   "devDependencies": {
-    "typescript": "^2.0.3"
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0"
   }
 }

@@ -2,3 +2,9 @@
     - npm bin (to display the path to bin)
     - copy/paste the paste the path+/tsc: D:\Angular2\MirkoNasatoWebPackStarter\node_modules\.bin/tsc -v for check
     - run .....bin/tsc --rootDir src --outDir dist (will generate some errors but create the code anyway)
+2. this must be run once every project(ANNOYINNGGG!!!)
+    - npm bin
+    - D:\Angular2\MirkoNasatoWebPackStarter\node_modules\.bin/typings -v
+    - D:\Angular2\MirkoNasatoWebPackStarter\node_modules\.bin/typings install --global --save dt~core-js
+3. recompile (stil get 2 errors, should be none!:(
+    - ...bin/tsc --rootDir src --outDir dist
