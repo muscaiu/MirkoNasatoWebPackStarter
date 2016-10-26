@@ -2,7 +2,8 @@
   "name": "angular2-wpstarter",
   "version": "0.1.0",
   "scripts": {
-    "build": "tsc --rootDir src --outDir dist",
+    "build": "webpack --progress",
+    "build:prod": "webpack -p --progress",
     "postinstall": "typings install"
   },
   "dependencies": {

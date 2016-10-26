@@ -26,4 +26,6 @@
 12. generate index.html in the dist folder:
     - npm i --save-dev html-webpack-plugin@2.22.0
     - configure html-webpack-plugin (code in repo step 12) & remove script from index.html
-    
+13. add "build:prod": "webpack -p --progress" for production
+    - npm run build:prod (will do minimization and uglify.js)
+    - app is now 700kb compared to 2MB
