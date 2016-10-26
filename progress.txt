@@ -8,3 +8,9 @@
     - D:\Angular2\MirkoNasatoWebPackStarter\node_modules\.bin/typings install --global --save dt~core-js
 3. recompile (stil get 2 errors, should be none!:(
     - ...bin/tsc --rootDir src --outDir dist
+4. install webpack and ts-loader(for loading files)
+    - npm i webpack@1.13.2 --save-dev
+    - npm i ts-loader@0.8.2 --save-dev
+5. configure webpack
+    - create webpack.config.js(see code in repo)
+6. run .../bin/webpack --progress to check if progress works
