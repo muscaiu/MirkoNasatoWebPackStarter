@@ -1,8 +1,8 @@
 {
-    "compilersOptions": {
-        "target": "es5",
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "typescript.tsdk": "node_modules/typescript/lib"
-    }
+  "compilerOptions": {
+    "target": "es5",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "compileOnSave": false
 }
