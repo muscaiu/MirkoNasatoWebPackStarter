@@ -23,3 +23,7 @@
 9. delete dist folder and run webpack --progress again
 10. move <script src="../dist/app.bundle.js"></script> at the end of the file
 11. create app.module.ts &  change main.ts (code in the repo)
+12. generate index.html in the dist folder:
+    - npm i --save-dev html-webpack-plugin@2.22.0
+    - configure html-webpack-plugin (code in repo step 12) & remove script from index.html
+    
